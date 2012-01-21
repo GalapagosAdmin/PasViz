@@ -9,11 +9,7 @@ In an attempt to modernize some of the code, convert it to FreePascal, and get
 it running on MacOS X, many things have been changed, and some bugs have been
 introduced (or made more apparent).
 
-The largest problem at present is that the PasParse or TestUtilsLite unit has
-"Issues" (Runtime Error 210 or Access Violation) when using DropParsers.
-(PopParser could be at fault as well).  I suspect this change resulted from
-changing the old custom memory management routines to the standard 
-TObject.Free style.
+The largest problem at present is a memory leak in PasParse or TestUtilsLite unit due to conversion of the memory management from a custom method to standard methods in the legacy units.  For more information, see the Issue List on GitHub.
 
 In order to enable the code to run for now with fewer crashes, the calls to
 DropParsers have been commented out, which will leak memory.  (This is mainly
