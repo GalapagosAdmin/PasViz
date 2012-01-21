@@ -1,4 +1,4 @@
-2011.12.30 Noah Silva
+2012.01.21 Noah Silva
 shiruba@galapagossoftware.com
 
 This is the preliminary alpha release of the source code for PasViz.
@@ -18,14 +18,14 @@ TObject.Free style.
 In order to enable the code to run for now with fewer crashes, the calls to
 DropParsers have been commented out, which will leak memory.  (This is mainly
 an academic issue, since the program will release the memory anyway when it
-terminates).  Unfortunatly, there is still an issue where some complex
+terminates).  Unfortunately, there is still an issue where some complex
 projects can still cause it to crash.
 
-The original license of PasParse and related files is not clear, since no
-license was included in the code, so I am assuming Public Domain until and
-unless I hear otherwise.  (The author has been contacted via email, which
-didn't seem to bounce).  I am releasing my code and modifications as GPLv2 as
-of now.
+The original license of PasParse and related files is Public Domain, and we have received explicit permission from the author (semi@seznam.cz) to modify and redistribute the code as we wee fit.
 
-Please visit the project's web site at http://www.galapagosssoftware.com for
-further information.
+The original legacy code (and some updated version of the PAscal parser) may be found at: http://semi.gurroa.cz/AltUtil/Source
+
+
+I am releasing my code and modifications as GPLv2 as of now.
+
+Please visit the project's web site at http://www.galapagosssoftware.com/developer-tools/pasviz for further information and pre-compiled binaries.
