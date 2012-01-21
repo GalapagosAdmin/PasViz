@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="PasVizCLI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PasVizCLI"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="48" Y="65"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="textutillite.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="textutillite"/>
+        <UsageCount Value="29"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="libdot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="libDot"/>
+        <UsageCount Value="29"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="showit.bat"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="29"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="libpasviz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="libPasViz"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="158"/>
+        <CursorPos X="88" Y="159"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\Developer\lazarus\lcl\fileutil.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileUtil"/>
+        <UsageCount Value="29"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\Developer\lazarus\lcl\include\fileutil.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="29"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="PasParser.pas"/>
+        <UnitName Value="PasParser"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1001"/>
+        <CursorPos X="3" Y="1006"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="685"/>
+        <CursorPos X="18" Y="693"/>
+        <UsageCount Value="13"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\..\usr\local\share\fpcsrc\rtl\objpas\classes\stringl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1189"/>
+        <CursorPos X="3" Y="1180"/>
+        <UsageCount Value="13"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="pvtest\c.pas"/>
+        <UnitName Value="c"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="73" Y="12"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="pvtest\a.pas"/>
+        <UnitName Value="a"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="8"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="pvtest\b.pas"/>
+        <UnitName Value="b"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="8"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit12>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="PasVizCLI.lpr"/>
+        <Caret Line="13" Column="33" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="PasVizCLI.lpr"/>
+        <Caret Line="58" Column="21" TopLine="49"/>
+      </Position2>
+      <Position3>
+        <Filename Value="PasVizCLI.lpr"/>
+        <Caret Line="65" Column="3" TopLine="48"/>
+      </Position3>
+      <Position4>
+        <Filename Value="PasVizCLI.lpr"/>
+        <Caret Line="61" Column="48" TopLine="44"/>
+      </Position4>
+      <Position5>
+        <Filename Value="PasVizCLI.lpr"/>
+        <Caret Line="65" Column="48" TopLine="46"/>
+      </Position5>
+      <Position6>
+        <Filename Value="libpasviz.pas"/>
+        <Caret Line="38" Column="24" TopLine="24"/>
+      </Position6>
+      <Position7>
+        <Filename Value="libpasviz.pas"/>
+        <Caret Line="145" Column="30" TopLine="141"/>
+      </Position7>
+      <Position8>
+        <Filename Value="libpasviz.pas"/>
+        <Caret Line="180" Column="13" TopLine="175"/>
+      </Position8>
+      <Position9>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="675" Column="4" TopLine="640"/>
+      </Position9>
+      <Position10>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="1076" Column="20" TopLine="1053"/>
+      </Position10>
+      <Position11>
+        <Filename Value="libpasviz.pas"/>
+        <Caret Line="127" Column="16" TopLine="111"/>
+      </Position11>
+      <Position12>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="7" Column="60" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="1007" Column="15" TopLine="1005"/>
+      </Position13>
+      <Position14>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="959" Column="18" TopLine="945"/>
+      </Position14>
+      <Position15>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="740" Column="24" TopLine="738"/>
+      </Position15>
+      <Position16>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="11" Column="26" TopLine="1"/>
+      </Position16>
+      <Position17>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="82" Column="80" TopLine="59"/>
+      </Position17>
+      <Position18>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="1005" Column="14" TopLine="982"/>
+      </Position18>
+      <Position19>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="950" Column="18" TopLine="931"/>
+      </Position19>
+      <Position20>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="121" Column="58" TopLine="107"/>
+      </Position20>
+      <Position21>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="124" Column="74" TopLine="107"/>
+      </Position21>
+      <Position22>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="125" Column="71" TopLine="107"/>
+      </Position22>
+      <Position23>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="946" Column="19" TopLine="614"/>
+      </Position23>
+      <Position24>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="950" Column="20" TopLine="938"/>
+      </Position24>
+      <Position25>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="968" Column="22" TopLine="945"/>
+      </Position25>
+      <Position26>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="13" Column="31" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="PasParser.pas"/>
+        <Caret Line="82" Column="93" TopLine="63"/>
+      </Position27>
+      <Position28>
+        <Filename Value="libpasviz.pas"/>
+        <Caret Line="51" Column="20" TopLine="40"/>
+      </Position28>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

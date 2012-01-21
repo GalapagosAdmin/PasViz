@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="PasViz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PasViz"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="72" Y="9"/>
+        <UsageCount Value="351"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmmainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FrmMainUnit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="33"/>
+        <CursorPos X="22" Y="52"/>
+        <UsageCount Value="351"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="DistComps\ComUtil.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ComUtil"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="63" Y="3"/>
+        <UsageCount Value="351"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="frmoutputunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmOutput"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmoutputunit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="29"/>
+        <CursorPos X="73" Y="66"/>
+        <UsageCount Value="346"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="pvtest\pvtest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pvtest"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="55" Y="8"/>
+        <UsageCount Value="201"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="pvtest\c.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="c"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="8"/>
+        <UsageCount Value="201"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="pvtest\f.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="f"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="7" Y="6"/>
+        <UsageCount Value="30"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="frmconfigunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmConfig"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmConfigUnit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="3" Y="44"/>
+        <UsageCount Value="21"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="D:\Developer\lazarus\lcl\fileutil.pas"/>
+        <UnitName Value="fileutil"/>
+        <UsageCount Value="78"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="D:\Developer\lazarus\lcl\include\lcl_defines.inc"/>
+        <UsageCount Value="78"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="libpasviz.pas"/>
+        <UnitName Value="libPasViz"/>
+        <IsVisibleTab Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="273"/>
+        <CursorPos X="103" Y="283"/>
+        <UsageCount Value="73"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="PasVizCLI.lpr"/>
+        <UnitName Value="PasVizCLI"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="9"/>
+        <CursorPos X="54" Y="21"/>
+        <UsageCount Value="173"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="PasParser.pas"/>
+        <UnitName Value="PasParser"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="966"/>
+        <CursorPos X="78" Y="959"/>
+        <UsageCount Value="67"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="libdot.pas"/>
+        <UnitName Value="libDot"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="65" Y="34"/>
+        <UsageCount Value="67"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="pvtest\j.pas"/>
+        <UnitName Value="j"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="9"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\interfaces\carbon\carbonprivate.pp"/>
+        <UnitName Value="CarbonPrivate"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="pvtest\l.pas"/>
+        <UnitName Value="l"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="pvtest\g.pas"/>
+        <UnitName Value="g"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="9"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="pvtest\k.pas"/>
+        <UnitName Value="k"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="8"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="D:\pasviz.xml"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="159" Y="2"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>

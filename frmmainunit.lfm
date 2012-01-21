@@ -1,0 +1,112 @@
+object frmMain: TfrmMain
+  Left = 789
+  Height = 100
+  Top = 164
+  Width = 351
+  BorderStyle = bsSingle
+  Caption = 'PasViz'
+  ClientHeight = 100
+  ClientWidth = 351
+  OnShow = acnInitExecute
+  Position = poDesktopCenter
+  LCLVersion = '0.9.31'
+  Visible = True
+  object bbProcess: TBitBtn
+    Left = 24
+    Height = 32
+    Top = 56
+    Width = 112
+    Action = acnProcessProject
+    Enabled = False
+    TabOrder = 0
+  end
+  object ebProjectFile: TFileNameEdit
+    Left = 24
+    Height = 20
+    Top = 24
+    Width = 287
+    OnAcceptFileName = ebProjectFileAcceptFileName
+    DialogOptions = []
+    Filter = 'Lazarus Project|*.lpr|Delphi Project|*.dpr|Pascal Program|*.pas|All Files|*'
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    Anchors = [akTop, akLeft, akRight]
+    MaxLength = 0
+    TabOrder = 1
+    OnChange = acnCheckFileExecute
+  end
+  object lblProjectFile: TLabel
+    Left = 24
+    Height = 13
+    Top = 6
+    Width = 98
+    Caption = 'Pascal Project File'
+    ParentColor = False
+  end
+  object sbConfig: TSpeedButton
+    Left = 299
+    Height = 30
+    Top = 58
+    Width = 32
+    Anchors = [akTop, akRight]
+    Caption = 'Settings'
+    Glyph.Data = {
+      42020000424D4202000000000000420000002800000010000000100000000100
+      100003000000000200006400000064000000000000000000000000F80000E007
+      00001F000000FFFFFFFFFFFFFFFFFFFFFFFF6D6BCB5A8A528A52FFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFF6D6B4D6BCF7B1084F7BD96B5CB5ACB5AEB5A694A
+      FFFFFFFFFFFFFFFFFFFF10846D6B2C63AE73108459CE38C60C63CB5ACB5A694A
+      494AFFFFFFFFFFFF34A5F7BDFBDE34A51084308438C618C66D6B6D6B34A59AD6
+      10848A52FFFFFFFF55AD34A5BAD638C659CE9AD659CE38C679CE38C6F7BD59CE
+      6D6B2C63FFFFFFFFFFFF75AD38C618C638C638C655AD34A518C6F7BDB6B555AD
+      4D6BFFFFFFFF14A5718C14A579CE38C679CEF39CD39CB294718C18C6F7BDD7BD
+      2C63CB5A8A52F7BD1CE79AD638C679CE96B59294FFFFFFFFB29455AD18C6B6B5
+      18C69AD60C6338C65DEFBAD659CE79CE34A53084FFFFFFFFD39C75AD38C6D7BD
+      38C6FBDE4D6B59CE38C618C6DBDE79CEF7BD1084AE73EF7B718C18C618C679CE
+      718C30841084FFFFFFFF38C6BAD679CE59CED7BDF39C14A518C638C618C6B6B5
+      518CFFFFFFFFFFFF59CE38C6FBDEBAD6DBDEDBDEBAD6BAD6DBDE9AD659CE59CE
+      CF7B8E73FFFFFFFF9AD6FBDE7DEFDBDE18C6F7BDBAD6BAD696B575AD59CE3CE7
+      B6B5518CFFFFFFFFFFFF9AD679CE59CE38C618C6FBDEFBDE96B596B575AD34A5
+      14A5FFFFFFFFFFFFFFFFFFFF9AD679CE59CE38C63CE73CE775ADB6B596B575AD
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF59CE38C638C6F7BDFFFFFFFFFFFF
+      FFFFFFFFFFFF
+    }
+    NumGlyphs = 0
+    OnClick = sbConfigClick
+    ShowCaption = False
+  end
+  object Process1: TProcess
+    Active = False
+    Options = []
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    left = 248
+    top = 56
+  end
+  object ActionList1: TActionList
+    left = 200
+    top = 56
+    object acnProcessProject: TAction
+      Caption = 'Process Project...'
+      OnExecute = acnProcessProjectExecute
+    end
+    object acnCheckFile: TAction
+      Caption = 'acnCheckFile'
+      OnExecute = acnCheckFileExecute
+    end
+    object acnInit: TAction
+      Caption = 'acnInit'
+      OnExecute = acnInitExecute
+    end
+  end
+end

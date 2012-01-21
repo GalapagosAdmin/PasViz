@@ -1,0 +1,38 @@
+object frmConfig: TfrmConfig
+  Left = 314
+  Height = 149
+  Top = 125
+  Width = 339
+  BorderStyle = bsDialog
+  Caption = 'Configuration'
+  ClientHeight = 149
+  ClientWidth = 339
+  OnShow = FormShow
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '0.9.31'
+  object Label1: TLabel
+    Left = 12
+    Height = 13
+    Top = 11
+    Width = 109
+    Caption = 'GraphViz Executable:'
+    ParentColor = False
+  end
+  object ebConfig_gvexe: TFileNameEdit
+    Left = 12
+    Height = 20
+    Top = 24
+    Width = 284
+    DialogOptions = []
+    Filter = 'Lazarus Project|*.lpr|Delphi Project|*.dpr|Pascal Program|*.pas|All Files|*'
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    Anchors = [akTop, akLeft, akRight]
+    MaxLength = 0
+    TabOrder = 0
+    OnChange = ebConfig_gvexeChange
+  end
+end

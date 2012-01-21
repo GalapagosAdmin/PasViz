@@ -1,0 +1,46 @@
+digraph output {
+pvtest [shape=box]
+pvtest->a
+node [shape=ellipse]
+edge [style=solid]
+a->d
+node [shape=ellipse]
+edge [style=dotted]
+d->h
+node [shape=ellipse]
+edge [style=solid]
+d->i
+node [shape=ellipse]
+pvtest->b
+node [shape=ellipse]
+edge [style=solid]
+b->e
+node [shape=ellipse]
+edge [style=dotted]
+e->j
+node [shape=ellipse]
+edge [style=solid]
+j->k
+node [shape=ellipse]
+edge [style=solid]
+k->l
+node [shape=ellipse]
+edge [style=solid]
+j->l
+edge [style=solid]
+e->i
+pvtest->c
+node [shape=ellipse]
+edge [style=solid]
+c->f
+node [shape=ellipse]
+edge [style=dotted]
+f->j
+edge [style=solid]
+c->g
+node [shape=ellipse]
+edge [style=solid]
+g->k
+edge [style=solid]
+g->l
+}
