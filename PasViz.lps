@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="20">
+    <Units Count="21">
       <Unit0>
         <Filename Value="PasViz.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -95,8 +95,6 @@
       <Unit10>
         <Filename Value="libpasviz.pas"/>
         <UnitName Value="libPasViz"/>
-        <IsVisibleTab Value="True"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="273"/>
         <CursorPos X="103" Y="283"/>
         <UsageCount Value="73"/>
@@ -173,7 +171,26 @@
         <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="XML"/>
       </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\Developer\lazarus\lcl\interfaces\win32\win32wsdialogs.pp"/>
+        <UnitName Value="Win32WSDialogs"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="82"/>
+        <CursorPos X="7" Y="95"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit20>
     </Units>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="1" HistoryIndex="0">
+      <Position1>
+        <Filename Value="..\..\..\..\Developer\lazarus\lcl\interfaces\win32\win32wsdialogs.pp"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+    </JumpHistory>
   </ProjectSession>
-</CONFIG>
+</CONFIG>
